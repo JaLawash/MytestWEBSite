@@ -1,0 +1,24 @@
+
+[
+  {
+    "login": "user1",
+    "password": "1234",
+    "avatar": "avatar1.png",
+    "desktop": {
+      "folders": [
+        {
+          "name": "Документы",
+          "files": [
+            { "name": "план.txt", "content": "Планы на будущее: 1. Учёба 2. Отдых 3. Хобби" }
+          ]
+        },
+        {
+          "name": "Почта",
+          "emails": [
+            { "from": "admin@corp", "subject": "Добро пожаловать", "body": "Мы рады видеть вас!" }
+          ]
+        }
+      ]
+    }
+  }
+]

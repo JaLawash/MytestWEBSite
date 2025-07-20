@@ -1,0 +1,19 @@
+body { margin: 0; font-family: sans-serif; background: #0078D7; }
+.hidden { display: none; }
+#lock-screen { width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; background: url('assets/win-bg.jpg') no-repeat center center / cover; }
+.login-container { background: rgba(0,0,0,0.5); padding: 20px; border-radius: 10px; text-align: center; }
+.avatar { width: 100px; border-radius: 50%; margin-bottom: 10px; }
+input { display: block; margin: 10px auto; padding: 10px; width: 200px; }
+button { padding: 10px 20px; }
+#welcome-screen { position: fixed; width: 100vw; height: 100vh; background: #000000aa; display: flex; justify-content: center; align-items: center; color: white; font-size: 24px; flex-direction: column; }
+.welcome-box .avatar { width: 120px; }
+#desktop { width: 100vw; height: 100vh; background: #1E1E1E; color: white; position: relative; }
+.taskbar { position: absolute; bottom: 0; width: 100%; height: 40px; background: #333; display: flex; align-items: center; justify-content: space-between; padding: 0 10px; }
+.start-button { width: 40px; height: 40px; background: #0078D7; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.search-bar { flex-grow: 1; margin: 0 10px; color: #aaa; }
+.time-block { text-align: right; }
+.icons { padding: 20px; }
+.icon { background: rgba(255,255,255,0.1); padding: 10px; margin: 5px; border-radius: 5px; cursor: pointer; width: fit-content; }
+.window { background: #222; border: 1px solid #555; position: absolute; top: 100px; left: 100px; width: 300px; z-index: 10; }
+.window-header { background: #444; padding: 5px; cursor: move; display: flex; justify-content: space-between; }
+.window-body { padding: 10px; }
